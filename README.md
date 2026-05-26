@@ -23,51 +23,45 @@ A fully responsive Car Showroom website built using HTML, CSS, JavaScript and PH
 
 ## Project Pages
 car-showroom/
-│
-├── index.php
-├── about.php
-├── cars.php
-├── car-details.php
-├── contact.php
-├── login.php
-├── register.php
-├── logout.php
-│
-├── user/
-│   ├── dashboard.php
-│   ├── my-bookings.php
-│   └── profile.php
-│
-├── admin/
-│   ├── dashboard.php
-│   ├── add-car.php
-│   ├── manage-cars.php
-│   ├── edit-car.php
-│   ├── delete-car.php
-│   ├── bookings.php
-│   ├── customers.php
-│   └── messages.php
-│
-├── includes/
-│   ├── db.php
-│   ├── header.php
-│   ├── footer.php
-│   └── navbar.php
-│
-├── css/
-│   ├── style.css
-│   └── responsive.css
-│
-├── js/
-│   └── script.js
-│
-├── images/
-│   ├── cars/
-│   ├── banner/
-│   └── logo.png
-│
-└── database/
-    └── car_showroom.sql
+index.php
+about.php
+cars.php
+car-details.php
+contact.php
+login.php
+register.php
+logout.php
+
+├ user/
+  ├── dashboard.php
+  ├── my-bookings.php
+  └── profile.php
+├admin/
+   ─ dashboard.php
+   ─ add-car.php
+   ─ manage-cars.php
+   ─ edit-car.php
+   ─ delete-car.php
+   ─ bookings.php
+   ─ customers.php
+   ─ messages.php
+├ includes/
+   ─ db.php
+   ─ header.php
+   ─ footer.php
+   ─ navbar.php
+├ css/
+   ├ style.css
+   └─ responsive.css
+├js/
+ └── script.js
+├ images/
+   ├ cars/
+   ├ banner/
+   └ logo.png
+
+└ database/
+    └ car_showroom.sql
 
 ## How to Run
 
