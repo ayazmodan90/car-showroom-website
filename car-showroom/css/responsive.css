@@ -1,0 +1,132 @@
+/* ================= RESPONSIVE CSS ================= */
+
+/* Tablet */
+@media (max-width: 991px) {
+
+    .header {
+        padding: 18px 5%;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: -100%;
+        width: 100%;
+        background: #111;
+        flex-direction: column;
+        padding: 30px;
+        gap: 20px;
+        transition: 0.3s;
+    }
+
+    .navbar.active {
+        left: 0;
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .hero-content h1 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .section-title {
+        font-size: 32px;
+    }
+
+    .about-container,
+    .contact-container,
+    .details-container,
+    .profile-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+
+    .hero {
+        height: auto;
+        padding: 120px 8%;
+    }
+
+    .hero-content h1 {
+        font-size: 38px;
+        line-height: 50px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .page-header h1 {
+        font-size: 38px;
+    }
+
+    .about-content h2,
+    .contact-info h2 {
+        font-size: 32px;
+    }
+
+    .car-container,
+    .feature-container,
+    .stats-container,
+    .mission-container,
+    .dashboard-cards,
+    .action-container,
+    .booking-container {
+        grid-template-columns: 1fr;
+    }
+
+    .auth-box {
+        padding: 30px 20px;
+    }
+
+    .admin-table {
+        font-size: 14px;
+    }
+}
+
+/* Small Mobile */
+@media (max-width: 500px) {
+
+    .logo h2 {
+        font-size: 26px;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+        line-height: 45px;
+    }
+
+    .btn {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .page-header {
+        padding: 60px 15px;
+    }
+
+    .page-header h1 {
+        font-size: 32px;
+    }
+
+    .car-box img {
+        height: 200px;
+    }
+
+    .contact-form {
+        padding: 25px;
+    }
+
+    .footer-container {
+        padding: 0 5% 40px;
+    }
+}
